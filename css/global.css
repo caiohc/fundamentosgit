@@ -1,0 +1,16 @@
+@charset "UTF-8";
+
+@font-face {
+	font-family: "Archive Regular";
+	src: url("../fonts/Archive%20Regular.ttf") format("truetype");
+}
+
+@font-face {
+	font-family: "Univers 57 Condensed";
+	src: url("../fonts/Univers-57-Condensed-Font.ttf") format("truetype");
+}
+
+html {
+	font-family: "Univers 57 Condensed", sans-serif;
+	font-size: 62.5%;
+}

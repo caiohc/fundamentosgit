@@ -1,0 +1,27 @@
+@charset "UTF-8";
+
+.header {
+	border-bottom: .4em solid #00713c;
+	box-shadow: 0 .8em #c00d0d;
+	padding: 0 1em;
+}
+
+.header__inner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+	
+.header__title {
+    color: #00713c;
+    
+    font-family: "Archive Regular";
+    font-size: 2.8em;
+    text-transform: uppercase;
+}
+
+@media(min-width: 991px) {
+    .header__title {
+        font-size: 3.6em;
+    }
+}
